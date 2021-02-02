@@ -1,0 +1,21 @@
+- skill:
+  name: Javascript
+  level: 80%
+- skill:
+  name: React, ReactNative
+  level: 70%
+- skill:
+  name: Java
+  level: 50%
+- skill:
+  name: Spring Boot, Maven
+  level: 50%
+- skill:
+  name: MongoDB, MySQL 
+  level: 50%
+- skill:
+  name: Swift, Objective-C
+  level: 20%
+- skill:
+  name: Python
+  level: 20%

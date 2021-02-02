@@ -1,0 +1,78 @@
+- experience:
+  role: Software Engineer
+  time: March 2020 - Present
+  company: Rakuten Kobo, Tokyo Japan
+  details: "Developing an e-book, manga reader mobile application using ReactNative.
+  We need to migrate the native Kobo app to ReactNative solution.
+  <br>
+  <b>Challenges:</b>
+  <ul>
+  <li>
+  There is a performance issue in QuickScroll feature where blank space appears too frequently which affects the user experience.
+  </li>
+  <li>
+  The sync takes too much time compared to the native app
+  </li>
+  <li>
+  The rotation of the library doesn’t resize for a few seconds
+  </li>
+  </ul>"
+
+- experience:
+  role: Software Engineer
+  time: Dec 2018 – Feb 2020
+  company: ​Mitsubishi Fuso Truck and Bus Corp., Tokyo Japan
+  details: "Working on a web application for tracking vehicles using Java and ReactJS.
+  We provide a management solution for all FUSO vehicle purchasers. With this website, 
+  users can track their vehicle status such as fuel, energy (for electric vehicles), geofencing notifications, etc.
+  <br>
+  <b>Challenges:</b>
+  <ul>
+  <li>
+  Being an external employee has some hinder on trying to achieve the tasks. Constantly seeking for information about the inner system to have a better understanding of the api
+  </li>
+  </ul>
+  "
+- experience:
+  role:  Senior Backend Engineer
+  time: Sep 2018 – Dec 2018
+  company: Amanotes Ltd., Vietnam HCMC
+  details: "
+  Maintaining and automating processes into services. Tech stack: AWS EC2, DynamoDB, S3, Jenkins, CI/CD.
+  We want to bring music to everyone through games, so that everyone can enjoy music while playing games. 
+  Famous games are: Magic Tiles 3, Dancing Road.
+  <br>
+  <b>Challenges:</b>
+  <ul>
+  <li>
+  Need to be available most of the time in case of server issues
+  </li>
+  <li>
+  The team is too small, only two people in the team. Human resource are
+  scarce.
+  </li>
+  </ul>
+"
+- experience:
+  role:  Software Engineer
+  time: Jun 2016 – Aug 2018
+  company: DXC Technology Vietnam
+  details: "Responsible for reviewing, designing, and developing activities relating to Java, NodeJS applications in various projects and teams related to insurance
+  The team provides many services supporting insurance business. 
+  I had a chance to work in a web application built with Java and AngularJS that supports buying insurance online. 
+  Later, I became the main developer in charge of building the Questionnaire microservice using NodeJS. Later, 
+  I integrated that api into Alexa to promote getting an insurance quotation with ease.
+  <br>
+  <b>Challenges:</b>
+  <ul>
+  <li>
+  Mentoring new comers
+  </li>
+  <li>
+  Training JavaScript and AngularJS for fresh grads training courses
+  </li>
+  <li>
+  Taking over the Questionnaire component. When I took over, the component has performance issue regarding memory leak and slowness due to csv file operations
+  </li>
+  </ul>
+  "

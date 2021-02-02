@@ -18,21 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Awesome Jekyll
+email: cuongchau93@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username: cuongchau93
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# # Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +52,51 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# # Site Settings
+# title: My Resume
+# url: 'http://webjeda.com'
+# baseurl: '' #change it according to your repository name
+
+# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
+style: styles-2
+# only padding changed in style-2
+# style: styles-3
+# style: styles-4
+# style: styles-5
+# style: styles-6
+
+#Profile information
+name: Cuong Chau
+tagline: Software Engineer
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+summary: 'Been working as software engineer since 2015.
+Been through many different positions from backend, devOps, to frontend and mobile  
+Looking for a challenging position in a reputable organization to expand
+my learnings, knowledge, and skills. 
+Performing well in JavaScript, Java. 
+Familiar with ReactJS, ExpressJS, and Spring framework.
+You can <a href="https://drive.google.com/file/d/1q6PcE9sFFQK7FXeFTBv-cJaneXNwTzje/view?usp=sharing" target="_blank"> download another version of resume here</a>.'
+
+#sidebar links
+email: cuongchau93@gmail.com
+phone: 0807 693 6394
+#website: notexist
+linkedin: cuong-chau-03356394
+github: cuongchau93
+#twitter: '@webjeda'
+#Update all the sections by editing the files inside _data folder.
+
+# TODO Tracker
+#analytics: UA-83979019-1
+
+# gems:
+#   - jekyll-pdf
+
+# Build settings
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development

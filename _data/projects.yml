@@ -1,0 +1,22 @@
+- intro:
+  description: "Here are some of my side projects and contributions"
+- project:
+  title: Random Mobile App
+  link: "https://github.com/cuongchau93/CurrencyConversion"
+  tagline: "On the learning journey of native iOs, I built an iOS mobile application that supports 3 small applications. Facial Expression change, Calculator and Currency Exchange"
+- project:
+  title: React Native Bridge 
+  link: "https://github.com/cuongchau93/rn-simple-native"
+  tagline: "While working with RN, I need to focus on the bridging part so I built this small project for playing with the bridging"
+- project:
+  title: FlipKart POC
+  link: "https://github.com/cuongchau93/flipchart-compare-poc"
+  tagline: "A small web application support comparing two products in tabular format"
+- project:
+  title: Contribute to React-native-palette
+  link: "https://github.com/chetstone/react-native-palette/pull/17"
+  tagline: "Updated the library to support other image uri"
+- project:
+  title: GraphQL and Express Playground
+  link: "https://github.com/cuongchau93/hello-graphql-express"
+  tagline: "Example app for playing with graphQL and ExpressJS. Also using prisma"
