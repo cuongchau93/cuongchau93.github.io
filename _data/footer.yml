@@ -1,0 +1,14 @@
+
+items:
+  - url: https://github.com/cuongchau93
+    title: GitHub
+    iconClass: fa fa-github fa-stack-1x fa-inverse
+  - url: mailto:cuongchau93@gmail.com
+    title: Email me
+    iconClass: fa fa-envelope fa-stack-1x fa-inverse
+  - url: https://www.linkedin.com/in/cuong-chau-03356394/
+    title: LinkedIn
+    iconClass: fa fa-linkedin fa-stack-1x fa-inverse
+  - url: https://stackoverflow.com/users/3758596/ryan-chau
+    title: StackOverflow
+    iconClass: fa fa-stack-overflow fa-stack-1x fa-inverse

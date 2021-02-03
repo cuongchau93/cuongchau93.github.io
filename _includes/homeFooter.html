@@ -1,0 +1,16 @@
+<footer>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center footer-links">
+                {% for item in site.data.footer.items %}
+                   <li><a href="{{ item.url }}" title="{{item.title}}">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="{{item.iconClass}}"></i>
+                        </span>      
+                   </a></li>
+                {% endfor %}
+            </ul>
+      </div>
+    </div>
+  </footer>

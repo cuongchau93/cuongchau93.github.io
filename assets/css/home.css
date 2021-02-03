@@ -1,0 +1,50 @@
+footer {
+    padding: 30px 0;
+    background-color: #4CAC9D;
+    border-top: 1px #EAEAEA solid;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+/* .nav { 
+    background-color: #4CAC9D;
+} */
+
+
+.myNav { 
+    background-color: #4CAC9D;
+} 
+
+a.navbar-brand,
+.navbar-nav>li>a {
+    color: #fff !important;
+    font-weight: bolder;
+
+}
+
+a:hover {
+    background-color: #35776d;
+}
+
+header.header-page {
+    margin-bottom: 20px;
+}  
+
+header.header-page .page-heading {
+    text-align: center;
+    font-size:  200%;
+}
+
+@media only screen and (min-width: 768px) { 
+    header.header-page .page-heading h1 {
+        font-size: 80px;
+    }    
+}
+
+hr.small {
+    max-width: 100px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: inherit;
+    border-radius: 3px;
+}
