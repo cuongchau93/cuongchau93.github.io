@@ -15,6 +15,10 @@ footer {
     background-color: #4CAC9D;
 } 
 
+body {
+    background-color: #fff;
+}
+
 a.navbar-brand,
 .navbar-nav>li>a {
     color: #fff !important;
