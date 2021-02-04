@@ -21,8 +21,7 @@ a.navbar-brand,
     font-weight: bolder;
 
 }
-
-a:hover {
+.navbar-nav>li>a:hover {
     background-color: #35776d;
 }
 
