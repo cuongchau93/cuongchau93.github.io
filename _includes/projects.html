@@ -10,15 +10,12 @@
   {% endfor%}
 
   {% for project in site.data.projects %}
+    {% if project.tagline %}
     <div class="item">
-
       <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
-
-      {% if project.tagline %}
       - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
     </div><!--//item-->
+    {% endif %}
   {% endfor %}
 
 </section><!--//section-->
