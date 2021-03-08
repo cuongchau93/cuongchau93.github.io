@@ -46,30 +46,25 @@ layout: compress
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <div class="page-heading">
-            <h1>Welcome!</h1>
+            <h3>{{ page.title }}</h3>
             <hr class="small">
-            <span class="page-subheading">My personal web page and blog</span>
+            <!-- <span class="page-subheading">My personal web page and blog</span> -->
           </div>
         </div>
       </div>
     </header>
-
-
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="posts-list">
-          {% for item in site.posts %}
-          <!-- <article class="post-preview">                   -->
-          <a href="{{item.url}}">
-            <h2 class="post-title">{{item.title}}</h2>
-          </a>
-          {{ item.excerpt }}
-          <!-- </article> -->
-          {% endfor %}
-        </div>
-      </div>
+      {{ content | remove: page.excerpt }}
     </div>
 
+    {% for tag in site.tags %}
+    <h3>{{ tag[0] }}</h3>
+    <ul>
+      {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
   </div>
   {% include homeFooter.html %}
   {% include scripts.html %}
