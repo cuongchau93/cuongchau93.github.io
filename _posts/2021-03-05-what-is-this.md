@@ -15,7 +15,7 @@ This post contains my findings that I found best explained.
 	Example 1: 
 </h5>
 
-```
+```prettyprint
 function foo() {
 	console.log(this.a);
 }
@@ -28,7 +28,7 @@ foo (); // 123
 	Example 2: 
 </h5>
 
-```
+```prettyprint
 var personA = {
 		name: 'A',
 		greet: function() {
@@ -52,7 +52,7 @@ How about `personB`? Well, when we call `personB.greet()`, it means to execute t
 	Example 3: When using with `new`  
 </h5> 
 
-```
+```prettyprint
 function Person() {
 	var personName = 'Ryan';
 	this.address = 'USA';
